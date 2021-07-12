@@ -76,7 +76,7 @@ public class Main {
 //        }
 //        return 4;
 
-        int position = 4; //assuming position 4 will be returned;
+        int position = 4; //assuming position 4 will be returned
         if (score >= 1000) {
             position = 1;
         } else if (score >= 500) {
@@ -85,7 +85,6 @@ public class Main {
             position = 3;
         }
         return position;
-
 
     }
 }
